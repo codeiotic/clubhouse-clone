@@ -31,3 +31,58 @@
 .phoneConfirmContainer p span {
   font-weight: 500;
 }
+
+.backBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.backBtn img {
+  width: 20px;
+}
+
+.notificationContainer {
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 5px #cccccc;
+}
+
+.notificationContainer h3 {
+  font-size: 1em;
+  font-weight: 500;
+  color: #000;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0.3em;
+}
+
+.notificationContainer p {
+  font-size: 0.825em;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: auto;
+}
+
+.notificationContainer .action_btn {
+  position: relative;
+}
+
+.notificationContainer .action_btn a {
+  display: inline-block;
+  width: 50%;
+  padding: 0.5em;
+  border-top: 1px solid #ccc;
+  color: var(--btnBgColor);
+}
+
+.notificationContainer .action_btn a:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.notificationContainer .hand_icon {
+  position: absolute;
+  bottom: -70px;
+  right: 65px;
+  width: 80px;
+}
