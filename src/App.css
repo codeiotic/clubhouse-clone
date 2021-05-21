@@ -45,3 +45,17 @@ a:hover {
   transition: ease-in-out opacity 150ms;
   opacity: 1;
 }
+
+.app_layout {
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mr-2 {
+  margin-right: 0.6em;
+}
