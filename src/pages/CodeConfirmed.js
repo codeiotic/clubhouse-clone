@@ -16,7 +16,7 @@ const CodeConfirmed = () => {
           style={{
             width: "100%",
             border: "none",
-            textAlign: "left",
+            textAlign: "center",
             outline: "none",
           }}
         />
