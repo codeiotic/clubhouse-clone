@@ -8,6 +8,8 @@
   left: 0;
   right: 0;
   background-color: #f2f0e4;
+  z-index: 2;
+  margin-right: 0.7em;
 }
 
 .Header img {
