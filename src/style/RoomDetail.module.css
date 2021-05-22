@@ -1,0 +1,69 @@
+.roomDetailContainer {
+  height: 100%;
+  background-color: #f2f0e4;
+  margin: -1.5em -1em;
+}
+
+.roomDetailContainer .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 0.5em 1.5em 0.5em;
+}
+
+.head .arrow_icon {
+  width: 15px;
+  transform: rotate(-90deg);
+  margin-top: -0.5em;
+}
+
+.head .profile_img {
+  width: 25px;
+  border-radius: 0.8em;
+  margin-left: 1.2em;
+}
+
+.head span {
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+
+.head svg {
+  font-size: 1.4em;
+}
+
+.roomDetailCard {
+  background-color: #fff;
+  padding: 1em 1em 3em 1em;
+  border-radius: 1.5em 1.5em 0 0;
+  height: 80vh;
+  /* overflow: auto; */
+}
+
+.roomDetailCard h6 {
+  font-size: 0.675em;
+  color: var(--textColor);
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.roomDetailCard img {
+  width: 70px;
+  border-radius: 1.7em;
+}
+
+.memberContainer {
+  text-align: center;
+  width: 70px;
+  position: relative;
+}
+
+.memberContainer .audio_icon {
+  position: absolute;
+  right: -5px;
+  bottom: 36px;
+  z-index: 5;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+}
