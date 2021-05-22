@@ -17,6 +17,24 @@ const Home = () => {
 
   return (
     <>
+      {loaderVisibility ? (
+        <div
+          style={{
+            position: "fixed",
+            top: "0",
+            right: "0",
+            bottom: "0",
+            left: "0",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <img src="/images/loader.gif" alt="Loading..." />
+        </div>
+      ) : (
+        <></>
+      )}
       <Header />
       <div className={style.home_container}>
         <DailyInfoCard />
@@ -35,7 +53,7 @@ const Home = () => {
         sheetTitle="start room"
         setSheetVisible={(item) => setSheetVisible(item)}
         sheetVisible={sheetVisible}
-        cardDetail={data.find((item) => item.id == cardId)}
+        cardDetail={data.find((item) => item.id === cardId)}
         setItemsVisible={(item) => setItemsVisible(item)}
         setSheetCreateRoom={(item) => {
           setLoaderVisibility(true);
