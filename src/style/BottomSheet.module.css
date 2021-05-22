@@ -4,6 +4,7 @@
   padding: 1.5em 1em;
   position: relative;
   height: 100%;
+  flex-grow: 1;
 }
 
 .switch_Line {
@@ -52,6 +53,19 @@
 
 .selectRoom button svg {
   font-size: 4em;
+}
+
+@media (max-width: 372px) {
+  .selectRoom button svg {
+    font-size: 2em;
+    height: 1.5em;
+  }
+  .selectRoom button div {
+    background-color: transparent;
+  }
+  .BottomSheetContainer {
+    padding: 1em 1em 1em 0;
+  }
 }
 
 .BottomSheetContainer p {
