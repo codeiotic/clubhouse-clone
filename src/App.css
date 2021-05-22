@@ -59,3 +59,7 @@ a:hover {
 .mr-2 {
   margin-right: 0.6em;
 }
+
+.text-right {
+  text-align: right;
+}
