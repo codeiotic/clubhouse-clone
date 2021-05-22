@@ -9,7 +9,7 @@
   right: 0;
   background-color: #f2f0e4;
   z-index: 2;
-  margin-right: 0.7em;
+  margin-right: 0.5em;
 }
 
 .Header img {
@@ -18,4 +18,46 @@
 
 .nav_items img {
   margin: 0 0.8em;
+}
+
+.input {
+  border-radius: 2em;
+  padding-left: 0.8em;
+  width: 12em;
+  margin-left: 8px;
+  color: var(--textColor);
+  border: 2px solid #ccc;
+  transition: all 0.8s ease-in-out;
+  flex-grow: 1;
+}
+
+@media (max-width: 425px) {
+  .input {
+    width: 6em;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 472px) {
+  .input {
+    width: 8em;
+  }
+}
+
+@media (max-width: 405px) {
+  .input {
+    width: 5em;
+  }
+}
+
+@media (max-width: 352px) {
+  .input {
+    display: none;
+  }
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #e7e4d5;
+  transition: border 0.15s ease-in-out;
 }
