@@ -7,6 +7,7 @@ const Header = () => {
       <Link to="/explore">
         <img src="/images/search.png" alt="Search" />
       </Link>
+      <input type="text" className={style.input} placeholder="Search" />
       <div className={style.nav_items}>
         <Link to="/friends_invite">
           <img src="/images/invite.png" alt="Invite" />
