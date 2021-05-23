@@ -38,3 +38,14 @@
   text-overflow: ellipsis;
   width: 195px;
 }
+
+@media (max-width: 428px) {
+  .time {
+    font-size: 0.8em;
+  }
+
+  .title {
+    font-weight: 600 !important;
+    font-size: 0.8em;
+  }
+}
