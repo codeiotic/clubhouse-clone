@@ -19,7 +19,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           <div>
             <FcGlobe />
           </div>
-          Open
+          <span className={style.title}>Open</span>
         </button>
         <button
           className={room === "social" ? style.active : ""}
@@ -28,7 +28,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           <div>
             <FcGlobe />
           </div>
-          Social
+          <span className={style.title}>Social</span>
         </button>
         <button
           className={room === "closed" ? style.active : ""}
@@ -37,7 +37,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           <div>
             <FcGlobe />
           </div>
-          Closed
+          <span className={style.title}>Closed</span>
         </button>
       </div>
       <p>
