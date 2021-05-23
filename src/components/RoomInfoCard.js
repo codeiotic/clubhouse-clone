@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import style from "../style/RoomCard.module.css";
 import data from "../data/roomCard.json";
 import { BsChatDots, BsChatDotsFill, BsFillPersonFill } from "react-icons/bs";
