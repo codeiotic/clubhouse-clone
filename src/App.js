@@ -7,6 +7,8 @@ import CodeConfirmed from "./pages/CodeConfirmed";
 import AllowNotification from "./pages/AllowNotification";
 import AppLayout from "./pages/Layouts/AppLayout";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           "/get_username",
           "/code_confirmed",
           "/allow_notification",
+          "/explore",
         ]}
         exact
       >
@@ -34,10 +37,12 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={["/home"]}>
+      <Route exact path={["/home", "/explore", "/profile"]}>
         <AppLayout>
           <Switch>
             <Route exact path="/home" component={Home} />
+            <Route exact path="/explore" component={Explore} />
+            <Route exact path="/profile" component={Profile} />
           </Switch>
         </AppLayout>
       </Route>
