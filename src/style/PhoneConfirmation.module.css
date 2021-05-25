@@ -86,3 +86,40 @@
   right: 65px;
   width: 80px;
 }
+
+.Input > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Input > div img {
+  height: 50;
+  width: 50px;
+  margin-left: 1em;
+}
+
+.Input > div > select {
+  margin-top: 15px;
+  width: 150px;
+}
+
+.Input input {
+  margin-top: 1em;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.Input input:focus {
+  border: var(--btnBgColor);
+}
+
+@media (max-width: 350px) {
+  .Input > div img {
+    height: 30px;
+    width: 30px;
+  }
+  .Input > div > select {
+    width: 100px;
+  }
+}
