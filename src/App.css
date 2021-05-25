@@ -68,3 +68,8 @@ a:hover {
 .ml-2 {
   margin-left: 0.6em;
 }
+
+::selection {
+  color: black !important;
+  background: rgb(202, 228, 238) !important;
+}
