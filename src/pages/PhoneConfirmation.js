@@ -16,6 +16,7 @@ const PhoneConfirmation = () => {
         defaultCountry="IN"
         value={value}
         onChange={(data) => setValue(data)}
+        className={style.Input}
       />
       <p>
         By entering your number, you're agreeing to our{" "}
