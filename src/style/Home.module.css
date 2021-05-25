@@ -31,7 +31,7 @@
 
 .home_container + .action_btn > button:first-child {
   border-radius: 2em;
-  background-color: #28ae61;
+  background-color: #4fc783;
   color: #fff;
   padding: 0.3em 1em;
   font-size: 1.1em;
@@ -49,4 +49,17 @@
 
 .home_container + .action_btn > button:nth-child(2) svg {
   color: var(--textColor);
+}
+
+.action_btn button:hover {
+  box-shadow: 10px 10px 5px #ccc;
+  background: rgb(224, 222, 222);
+  transition: all 0.18s ease-in-out;
+  border-radius: 50px;
+}
+
+.action_btn button:first-child:hover {
+  background-color: #28ae61;
+  border: 2px solid rgb(16, 173, 42);
+  transition: all 0.18s ease-in-out;
 }
